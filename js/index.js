@@ -1,8 +1,8 @@
 window.onload=function(){
 	var windows=getClass("window")[0];
-	console.log(windows);
+
 	var imgs=windows.getElementsByTagName("img");
-	console.dir(imgs);
+
 	var anniu=windows.getElementsByTagName("span");
         var index=0;
          console.log(index);
@@ -52,9 +52,7 @@ var aa=wuxuanxiang.getElementsByTagName("a");
 	var pjR=getClass('pjR')[0];
 	var pjRight=getClass('pjRight');
 	
-	
- console.log(pjR);
-	 console.log(pjRight);
+
  for(var i=0;i<aa.length;i++){
  	aa[i].index=i;
  	aa[i].onmouseover=function(){
@@ -77,8 +75,7 @@ var aaa=wuxuanxiang1.getElementsByTagName("a");
 	var zbRight=getClass('zbRight');
 	
 	
- console.log(zbR);
-	 console.log(zbRight);
+
  for(var i=0;i<aaa.length;i++){
  	aaa[i].index=i;
  	aaa[i].onmouseover=function(){
@@ -95,12 +92,11 @@ var aaa=wuxuanxiang1.getElementsByTagName("a");
 //照片按需加载
 
 	var boxx=$('.boxx');
-	alert(boxx.length)
+
 	var docH=document.documentElement.clientHeight;
 	var imgaa=$('img');
-	alert(imgaa.length)
-	console.log(imgaa)
-	console.log(boxx)
+
+
 	var newarr=[];
 	for(var i=0;i<boxx.length;i++){
 		newarr.push(boxx[i].offsetTop);		
